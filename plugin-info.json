@@ -1,0 +1,18 @@
+{
+  "id": "ces-maven-component-definer",
+  "name": "CES Maven Component Definer",
+  "description": "This plugin splits files into Components based on maven modules",
+  "version": "0.0.1",
+  "schemaVersion": "1",
+  "icon": "",
+  "commands": [
+    {
+      "id": "ces-maven-component-definer",
+      "name": "CES Maven Modules Component Definer",
+      "type": "componentDefiner",
+      "description": "Generates Components based on Maven Modules",
+      "commandTemplate": "ces-maven-component-definer --of ${outputFile} --ftg ${filesToGroup}",
+      "configurationFields": []
+    }
+  ]
+}
